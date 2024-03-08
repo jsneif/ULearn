@@ -20,13 +20,10 @@ function About() {
                     <img className="Intro-blurb-image" src={introBlurb} alt="Intro Blurb"/>
                 </div>
             </div>
-            <div className="Service-container">
-                <img className="Service-image" src={service} alt="Service"/>
-            </div>
             <div className="Mission-statement-container">
-                <h1>Our Mission</h1>
+                <h1>Our Mission:</h1>
                 <p>
-                    is to empower students and job seekers alike, fostering their success and helping them realize their
+                    Is to empower students and job seekers alike, fostering their success and helping them realize their
                     full potential. We strive to facilitate academic excellence and professional growth
                     by providing personalized guidance and access to valuable opportunities.
                     Whether you're navigating university life, pursuing educational milestones, launching into your career,
@@ -34,6 +31,9 @@ function About() {
                     Our commitment is to accompany each individual on their unique journey,
                     ensuring that every step is enriching and fulfilling.
                 </p>
+            </div>
+            <div className="Service-container">
+                <img className="Service-image" src={service} alt="Service"/>
             </div>
         </div>
     )
