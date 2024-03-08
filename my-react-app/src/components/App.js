@@ -1,4 +1,5 @@
 import '../App.css';
+import logo from "../Images/ULearnLogo.png";
 import About from "./About.js";
 
 
@@ -12,8 +13,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <About/>
+        <img className="Logo-image" src={logo} alt="Logo"/>
       </header>
+        <About/>
+      <footer className='App-footer'>
+        Contact us at ULearnWithUs.edu@gmail.com
+      </footer>
     </div>
   );
 }

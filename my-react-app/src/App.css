@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 .App {
   text-align: center;
+  background: #F400FE;
+  background: linear-gradient(to right,#F400FE, #0B34DC);
 }
 
 .App-logo {
@@ -15,9 +18,20 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: center;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -35,4 +49,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.About-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.Intro {
+  flex-direction: row;
+}
+.Intro-blurb-container {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.Intro-blurb-image {
+  width: 30%;
+  height: 30%;
+  border-radius: 15px;
+}
+
+.Introduction-container p{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.Introduction-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  background: hsl(188, 100%, 100%, 0.8);
+  border-radius: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.Logo-image {
+  height: 7%;
+  width: 7%;
+  margin-left: 2%;
+}
+
+.Mission-statement-container {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  background: hsl(188, 100%, 100%, 0.8);
+  border-radius: 10px;
+  margin-right: 10%;
+  margin-left: 10%;
+
+}
+
+.Mission-statement-container p {
+  color: rgba(43, 43, 158, 0.532);
+  font-size: large;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Arimo", sans-serif;
+  font-size: 25px;
 }
